@@ -1,0 +1,21 @@
+{
+  "main": "index.html",
+  "preload": "preload/services.js",
+  "logo": "logo.png",
+  "development": {
+    "main": "http://localhost:5173"
+  },
+  "$schema": "../node_modules/utools-api-types/resource/utools.schema.json",
+  "features": [
+    {
+      "code": "url-parser",
+      "explain": "URL参数解析",
+      "cmds": ["url", "URL解析", "参数解析", {
+        "type": "regex",
+        "label": "URL解析",
+        "match": "/^(https?:\\/\\/)?[\\w-]+(\\.[\\w-]+)+([\\w.,@?^=%&:/~+#-]*[\\w@?^=%&/~+#-])?$/",
+        "minLength": 8
+      }]
+    }
+  ]
+}
