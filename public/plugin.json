@@ -3,7 +3,7 @@
   "preload": "preload/services.js",
   "logo": "logo.png",
   "development": {
-    "main": "http://localhost:5173"
+    "main": "http://localhost:9099"
   },
   "$schema": "../node_modules/utools-api-types/resource/utools.schema.json",
   "features": [
@@ -13,7 +13,7 @@
       "cmds": ["url", "URL解析", "参数解析", {
         "type": "regex",
         "label": "URL解析",
-        "match": "/^(https?:\\/\\/)?[\\w-]+(\\.[\\w-]+)+([\\w.,@?^=%&:/~+#-]*[\\w@?^=%&/~+#-])?$/",
+        "match": "/^(https?:\\/\\/)?(localhost|[\\w-]+(\\.[\\w-]+)+)(:[0-9]{1,5})?([\\w.,@?^=%&:/~+#-]*[\\w@?^=%&/~+#-])?$/",
         "minLength": 8
       }]
     }
