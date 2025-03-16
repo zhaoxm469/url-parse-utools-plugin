@@ -53,3 +53,9 @@ url-parser-plugin/
 - 插件需要 uTools 平台支持
 - URL 必须是有效的格式才能被正确解析
 - 编辑参数时请确保使用有效的 JSON 格式
+
+## **发布事项**
+
+1. 运行 npm run build 
+2. 然后在 utools 开发者市场点击打包
+3. 导入打包好的文件

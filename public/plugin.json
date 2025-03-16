@@ -1,5 +1,5 @@
 {
-  "main": "../dist/index.html",
+  "main": "index.html",
   "preload": "preload/services.js",
   "logo": "logo.png",
   "development": {
@@ -10,7 +10,7 @@
     {
       "code": "url-parser",
       "explain": "URL参数解析",
-      "cmds": ["url", "URL解析", "参数解析", {
+      "cmds": ["URL解析", "参数解析", {
         "type": "regex",
         "label": "URL解析",
         "match": "/^(https?:\\/\\/)?(localhost|[\\w-]+(\\.[\\w-]+)+)(:[0-9]{1,5})?([\\w.,@?^=%&:/~+#-]*[\\w@?^=%&/~+#-])?$/",
